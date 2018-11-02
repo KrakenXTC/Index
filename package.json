@@ -9,14 +9,15 @@
   },
   "devDependencies": {},
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "sass": "node-sass -w scss/ -o dist/css/ --recursive",
+    "deploy": "gh-pages -d dist"
   },
   "repository": {
     "type": "git",
     "url": "git+https://github.com/KrakenXTC/Index.git"
   },
-  "author": "",
-  "license": "ISC",
+  "author": "Waqaruddin Rind Baloch",
+  "license": "MIT",
   "bugs": {
     "url": "https://github.com/KrakenXTC/Index/issues"
   },
