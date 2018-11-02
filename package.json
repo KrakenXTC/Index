@@ -1,20 +1,24 @@
 {
   "name": "xtc-online",
   "version": "1.0.0",
-  "description": "My Portfolio",
+  "description": "",
   "main": "index.js",
-  "scripts": {
-    "sass": "node-sass -w scss/ -o dist/css --recursive"
-  },
-  "keywords": [
-    "My",
-    "First",
-    "Responsive",
-    "Portfolio"
-  ],
-  "author": "Waqaruddin Rind Baloch",
-  "license": "MIT",
   "dependencies": {
+    "gh-pages": "^2.0.1",
     "node-sass": "^4.9.4"
-  }
+  },
+  "devDependencies": {},
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/KrakenXTC/Index.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/KrakenXTC/Index/issues"
+  },
+  "homepage": "https://github.com/KrakenXTC/Index#readme"
 }
